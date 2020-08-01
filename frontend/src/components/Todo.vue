@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <p>{{ todo.title }}</p>
+    <div v-bind:class="{ 'completed': todo.completed }">
+        <p v-on:click="markComplete">{{ todo.title }}</p>
     </div>
 </template>
 
