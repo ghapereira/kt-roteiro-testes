@@ -21,3 +21,5 @@ pnpm-debug.log*
 *.sln
 *.sw?
 package-lock.json
+backend/.venv/
+backend/__pycache__/
